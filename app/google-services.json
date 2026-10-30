@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "371865725742",
+    "firebase_url": "https://my-application-81e75-default-rtdb.firebaseio.com",
+    "project_id": "my-application-81e75",
+    "storage_bucket": "my-application-81e75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371865725742:android:0d715067887fe3364c68bf",
+        "android_client_info": {
+          "package_name": "com.example.gupshup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH_w5L3PrXDrOYTRf0j7_UR8-Y7DjtZG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

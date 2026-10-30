@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F3FF"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_profile_placeholder"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnChangeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE IMAGE"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:backgroundTint="#6A1B9A"
+        android:background="@drawable/border_edittext"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Full Name"
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:background="@drawable/border_edittext"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Email Address"
+        android:enabled="false"
+        android:textColor="#757575"
+        android:textColorHint="#757575"
+        android:background="@drawable/border_edittext"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE PROFILE"
+        android:backgroundTint="#6A1B9A"
+        android:background="@drawable/border_edittext"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp"
+        android:minHeight="52dp"/>
+
+    <Button
+        android:id="@+id/btnResetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET PASSWORD"
+        android:backgroundTint="#6A1B9A"
+        android:background="@drawable/border_edittext"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:minHeight="52dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:backgroundTint="#6A1B9A"
+        android:background="@drawable/border_edittext"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp"
+        android:minHeight="52dp"/>
+
+</LinearLayout>
+</ScrollView>

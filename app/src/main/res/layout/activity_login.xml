@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F3FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="206dp"
+            android:layout_height="168dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/app_logo"
+            android:src="@drawable/logo" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#5B2EFF"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:minHeight="48dp"
+            android:hint="Email Address"
+            android:textColorHint="#757575"
+            android:gravity="center_vertical"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/border_edittext"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#000000" />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:minHeight="48dp"
+            android:hint="Password"
+            android:textColorHint="#757575"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:background="@drawable/border_edittext"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginBottom="24dp"
+            android:textColor="#000000" />
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:background="@drawable/rounded_signup_button"
+            android:textColor="@android:color/white"
+            android:padding="14dp" />
+
+        <!-- Signup Text -->
+        <TextView
+            android:id="@+id/tvSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_have_account"
+            android:textColor="#5B2EFF"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
